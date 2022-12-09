@@ -1,0 +1,191 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+h1{
+	color: cornsilk;
+    font-size: -webkit-xxx-large;
+    font-weight: 900;
+}
+h1::first-letter {
+	font-size:100px;
+	
+}
+h1{
+	font-size:40px;
+	color:darkblue;
+}
+.background{
+	background-image:linear-gradient(#0a0a0ab5,#7ec5e545),url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Computer-Science-Pictures-HD.jpg");
+	background-position:center;
+	background-size:cover;
+	background-attachment:scroll;
+}
+.nav{
+	text-decoration:none;
+}
+.img-width{
+	width:100%;	
+	border-radius:10%;
+}
+.my-img{
+	margin-left:270px;
+}
+.my-img img{
+	width:30%;
+}
+.para, p{
+	font-family:cursive;
+	
+}
+.animate{
+	display:flex;
+	justify-content:center;
+	
+}
+span{
+	font-weight:bold;
+	font-family:sans-serif;
+	letter-spacing:10px;
+	text-shadow:0px 1px 0px pink,0px 2px 0px pink,0px 3px 0px pink,0px 4px 0px pink,0px 5px 0px pink,0px 6px 0px pink;
+	animation:move 5s linear infinite;
+}
+@keyframes move{
+	50%{
+		transform:translateY(-50px);
+		text-shadow:0px 1px 0px pink,0px 2px 0px pink,0px 3px 0px pink,0px 4px 0px pink,0px 5px 0px pink,0px 6px 0px pink,0px 20px 10px black;
+	}
+	100%{
+		transform:translateY(0px);
+	}
+}
+span:nth-child(1){
+	animation-delay:.5s;
+}
+span:nth-child(2){
+	animation-delay:1s;
+}
+span:nth-child(3){
+	animation-delay:1.5s;
+}
+span:nth-child(4){
+	animation-delay:2s;
+}
+span:nth-child(5){
+	animation-delay:2.5s;
+}
+span:nth-child(6){
+	animation-delay:3s;
+}
+span:nth-child(7){
+	animation-delay:3.5s;
+}
+span:nth-child(8){
+	animation-delay:4s;
+}
+span:nth-child(9){
+	animation-delay:4.5s;
+}
+span:nth-child(10){
+	animation-delay:5s;
+}
+span:nth-child(11){
+	animation-delay:5.5s;
+}
+span:nth-child(12){
+	animation-delay:6s;
+}
+span:nth-child(13){
+	animation-delay:6.5s;
+}
+span:nth-child(14){
+	animation-delay:7s;
+}
+span:nth-child(15){
+	animation-delay:7.5s;
+}
+span:nth-child(16){
+	animation-delay:8s;
+}
+a i{
+	font-size:30px;
+}
+.fa{
+	font-size:80px;
+}
+.cap a i{
+	color:blue;
+	font-size:50px;
+}
+.pencil a i{
+	color:red;
+	font-size:50px;
+}
+.percentage-size{
+	font-size:30px;
+	padding:10px;
+	font-weight:600;
+	font-family:sans-serif;
+}
+.hover::before{
+	position:absolute;
+	content:"";
+	position:absolute;
+	bottom:100%;
+	top:0;
+	left:0;
+	right:0;
+	background-color:#00000063;
+	color:white;
+}
+.hover:hover::before{
+	bottom:0;
+	transition:all 0.3s linear;
+}
+.skill-border{
+	border:1px solid white;
+	position:relative;
+}
+.hover p{
+	display:none;
+}
+.hover:hover p{
+	display:contents;
+	display:flex;
+	justify-content:center;
+	font-size:50px;
+}
+.nav-bg-clr:hover{
+	background-color:lightcyan;
+	border-bottom:5px solid skyblue;
+	border-top:5px solid skyblue;
+}
+.icon-color{
+	color:black;
+	font-size:40px;
+}
+.carousel-control-prev-icon{
+	height:10px;
+	width:10px;
+	border:2px solid black;
+	border-radius:5px;
+	background-color:black;
+}
+.carousel-control-next-icon{
+	height:10px;
+	width:10px;
+	border:2px solid black;
+	border-radius:5px;
+	background-color:black;
+}
+.copy-bg-color{
+	background-color:azure;;
+}
+.wholecontent a{
+	text-decoration:none;
+	font-size:25px;
+	font-family:sans-serif;
+	color:black;
+}
